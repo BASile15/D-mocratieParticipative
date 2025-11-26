@@ -1,0 +1,43 @@
+<section class="bodyForm">
+    <section class="Connexion">
+        <section class="imgEtTexteAGauche">
+            <h2>MyVote</h2>
+            <img title="imgLogoForm" src="images/logo_sans_fond.png"/>
+            <a class="btn-retour" href="routeur.php?controleur=controleurGroupe&action=lireGroupesUtilisateur">Retourner à l'accueil</a>
+        </section>
+
+        <section class="SectionForm">
+            <form class="formulaire" method="POST" action="routeur.php?controleur=controleurUtilisateur&action=modifierProfil">
+                <h1>
+                    Modifier vos informations
+                </h1>
+                
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" value="<?= htmlspecialchars($infos['email']) ?>" required><br>
+
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" value="<?= htmlspecialchars($infos['nom']) ?>" required><br>
+
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" name="prenom" value="<?= htmlspecialchars($infos['prenom']) ?>" required><br>
+
+                <label for="adresse">Adresse :</label>
+                <input type="text" id="adresse" name="adresse" value="<?= htmlspecialchars($infos['adressePostale']) ?>" required><br>
+
+                <label for="ville">Ville :</label>
+                <input type="text" id="ville" name="ville" value="<?= htmlspecialchars($infos['ville']) ?>" required><br>
+
+                <label for="mot_de_passe_actuel">Mot de passe actuel :</label>
+                <input type="password" id="mot_de_passe_actuel" name="mot_de_passe_actuel" required><br>
+
+                <label for="mdp">Nouveau mot de passe :</label>
+                <input type="password" id="mdp" name="mdp"><br>
+
+                <label for="confirme_mdp">Confirmer le nouveau mot de passe :</label>
+                <input type="password" id="confirme_mdp" name="confirme_mdp"><br>
+
+                <button type="submit">Modifier</button>
+            </form>
+        </section>
+    </section>
+</section>

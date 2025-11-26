@@ -1,6 +1,3 @@
-# D-mocratieParticipative
-Projet universitaire de 2e année de "démocratie participative"
-
 Pour le bon fonctionnement de la base et de l'application, il faut dans un premier temps installer la base de données sur un serveur phpMyAdmin.
 	Y importer le fichier saes3-bmonod.sql
 

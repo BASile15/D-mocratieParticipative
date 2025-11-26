@@ -1,0 +1,47 @@
+.signalement-box {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.signalement-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.details {
+    display: none;
+    padding-top: 10px;
+}
+
+.sign:a {
+    color: #00695C;
+        text-decoration: none;
+}
+
+.sign:a:hover {
+    text-decoration: underline;
+    color: #007864;
+}
+
+.signalement-box p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.signalement-box strong {
+    color: #333;
+}
+
+.signalement-box .signalement-id {
+    font-weight: bold;
+    color: #555;
+    margin-right: 10px;
+}
+

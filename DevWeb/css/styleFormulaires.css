@@ -1,0 +1,217 @@
+.bodyForm {
+    background-color: #00695C;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  
+.Connexion {
+    background-color: #f5f5f5;
+    box-shadow: 0 4px 8px #000000;
+    display: flex;
+    width: 100%;
+    max-width: 95%;
+    height: 90%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.imgEtTexteAGauche {
+    background-color: #f2f2f2;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+  
+.imgEtTexteAGauche img {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.lienFormualireHidden {
+    text-decoration: underline;
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+  
+.imgEtTexteAGauche p {
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.RetourAccueil {
+    text-decoration: none;
+}
+  
+.SectionForm {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px #aaaaaa;
+    border-radius: 20px;
+    flex: 2; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+  
+.formulaire {
+    width: 100%;
+    max-width: 400px;
+}
+  
+.formulaire h1 {
+    color: #060E0E;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+  
+.formulaire label {
+    color: #060E0E;
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+  
+.formulaire input {
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+  
+.formulaire button {
+    color: white;
+    background-color: #00695C;
+    border: none;
+    margin-top : 5%;
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+  
+.formulaire button:hover {
+    background-color: #007864;
+}
+  
+.formulaire a {
+    color: #00695C;
+    text-decoration: none;
+    font-size: 0.9em;
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
+  
+.formulaire a:hover {
+    text-decoration: underline;
+}
+
+
+/* Styles pour le conteneur du formulaire de vote */
+
+.form-vote {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-vote h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-vote p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.form-vote .choix-btn {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.form-vote .choix-btn button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.form-vote .choix-btn button:hover {
+    background-color: #45a049;
+}
+
+.form-vote .submit-btn {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 18px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-vote .submit-btn:hover {
+    background-color: #0056b3;
+}
+
+.form-vote textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    resize: vertical;
+}
+
+.form-vote textarea:required {
+    background-color: #ffffff;
+    border: 1px solid #f00;
+}
+
+.form-vote .form-group {
+    margin-bottom: 20px;
+}
+
+.form-vote .error-message {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+}
+
+input#couleur {
+    height: 35px;
+}
+

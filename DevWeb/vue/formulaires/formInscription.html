@@ -1,0 +1,43 @@
+<section class="bodyForm">
+	<section class="Connexion">
+		<section class="imgEtTexteAGauche">
+			<h2>MyVote</h2>
+			<img title="imgLogoForm" src="images\logo_sans_fond.png"/>
+			<p>La platforme de démocratie participative !</p>
+		</section>
+
+        <section class="SectionForm">
+            <form class="formulaire" method="POST" action="routeur.php?controleur=controleurUtilisateur&action=inscription">
+                <h1> 
+					S'inscrire
+				</h1>
+                
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required><br>
+
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" name="prenom" required><br>
+
+                <label for="adresse">Adresse :</label>
+                <input type="text" id="adresse" name="adresse" required><br>
+
+                <label for="ville">Ville :</label>
+                <input type="text" id="ville" name="ville" required><br>
+
+                <label for="mdp">Mot de passe :</label>
+                <input type="password" id="mdp" name="mdp" required><br>
+
+                <label for="confirme_mdp">Confirmer le mot de passe :</label>
+                <input type="password" id="confirme_mdp" name="confirme_mdp" required><br>
+
+                <button type="submit">S'inscrire</button>
+                <a href="routeur.php?controleur=controleurUtilisateur&action=formConnexion">Vous avez déjà un compte ?</a>
+            </form>
+        </section>
+    </section>
+</section>
+
+

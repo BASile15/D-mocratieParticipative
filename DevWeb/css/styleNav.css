@@ -1,0 +1,63 @@
+.HautDePage {
+    background-color: #00695C; 
+    color: white;
+    display: flex;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 8%;
+    border-bottom-right-radius : 10px;
+    border-bottom-left-radius : 10px;
+}
+
+.navigation {
+    background-color: #00695C;
+    display: flex;
+    width: 95%;
+}
+
+.navGauche {
+    display: flex;
+    flex : 2;
+}
+
+.navDroite {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.lienNav {
+    background-color: #00695C;
+    color : white;
+    padding: 2px 15px;
+    text-decoration: none;
+    padding : 10px;
+}
+
+.lienNav:hover {
+    background-color: #007864;
+}
+
+/* ------ Texte Profil ------ */
+
+.navDroite h1{
+    margin-right: 10%;
+    font-size: 150%;
+}
+
+
+/* ------ Image Profil ------ */
+
+.imgprofil{
+    
+    width: 100%;
+    height: auto;
+    
+}
+.navDroite a{
+    width: 20%;
+    
+}
+
+

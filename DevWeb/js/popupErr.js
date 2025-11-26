@@ -1,0 +1,1 @@
+alert("Votre session précédente a recontrer un probléme veuillez vous reconnectez !");
